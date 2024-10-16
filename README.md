@@ -1,4 +1,4 @@
-# SERVIDOR
+# 💢 SERVIDOR
 
 **SERVIDOR** is a C program that implements a server using both TCP and UDP sockets for inter-process communication (IPC). It is designed to handle multiple clients simultaneously, demonstrating the use of sockets, threads, and linked lists to manage client connections. The server can process requests via TCP and UDP protocols and support messaging, including channel-based communication.
 
@@ -64,7 +64,7 @@ After starting the server, it can accept both TCP and UDP clients for messaging.
 - **Private messaging**: Supports direct messages between clients.
 - **Logging**: Keeps track of all client activities, including connections, disconnections, and message exchanges.
 
-# CLIENTCP
+# 💢 CLIENTCP
 
 **CLIENTCP** is a C program that implements a client using TCP/IP sockets. It is designed to work in conjunction with a server program, demonstrating the use of stream sockets as an Inter-Process Communication (IPC) mechanism. This program sends and receives messages over a network connection.
 
@@ -110,7 +110,7 @@ Where:
 ./clientcp 192.168.1.100 commands.txt
 ```
 
-# CLIENTUDP
+# 💢 CLIENTUDP
 
 **CLIENTUDP** is a C program that implements a client using UDP sockets. It is designed to work in conjunction with a server program, demonstrating the use of sockets as an Inter-Process Communication (IPC) mechanism. This program sends and receives messages over a network connection.
 
